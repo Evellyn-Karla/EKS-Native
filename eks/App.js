@@ -1,6 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, SafeAreaView, Image } from 'react-native';
-import navbar from './components/navbar'
 
 export default function App() {
   return (
