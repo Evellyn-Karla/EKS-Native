@@ -1,6 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, SafeAreaView, Image } from 'react-native';
 
+// nativeBase e UIKitten
+
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
