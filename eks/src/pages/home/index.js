@@ -10,7 +10,7 @@ export default function App() {
         
         <Image source={require('../../../assets/eu.jpeg')}
         style={styles.imagem} />
-        <Text style={styles.nome}>Evellyn Karla</Text>
+        <Text style={styles.nome}>Ola! Me chamo Evellyn Karla, tenho 20 anos e adoro programar.</Text>
         <StatusBar style="auto" />
       </SafeAreaView>
     );

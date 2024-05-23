@@ -9,7 +9,7 @@ import { StyleSheet, Text, SafeAreaView} from 'react-native';
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.nome}>experiencia</Text>
+      <Text style={styles.nome}>Demoday - MOM!</Text>
       <StatusBar style="auto" />
     </SafeAreaView>
   );
