@@ -22,7 +22,7 @@ export default function Routes() {
 
                 }
             }}
-            initialRouteName="Sobre">
+            initialRouteName="Formação">
             <Tab.Screen name="Sobre" component={Home}
                 options={{
                     tabBarIcon: ({ focused }) => {
