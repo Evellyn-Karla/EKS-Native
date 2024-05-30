@@ -1,8 +1,9 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View, Text, SafeAreaView, Image } from 'react-native';
-import { width, height, size, fontSize } from "react-native-responsive-sizes";
+import { StyleSheet, View, Text, SafeAreaView, Image, Dimensions } from 'react-native';
 // nativeBase e UIKitten
+
+const { width, height } = Dimensions.get("window");
 
 export default function App() {
     return (
@@ -32,27 +33,27 @@ const styles = StyleSheet.create({
     paddingBottom: 0,
   },
   star1:{
-    width: size(40),
-    height: size(40),
+    width: 40,
+    height: 40,
     position: 'absolute',
-    left: width(16),
-    top: height(48),
+    left: "16%",
+    top: "48%",
     zIndex: 8
   },
   star2:{
-    width: size(44),
-    height: size(44),
+    width: 44,
+    height: 44,
     position: 'absolute',
-    right: width(34),
-    top: height(24),
+    right: "34%",
+    top: "24%",
     zIndex: 8
   },
   smile:{
-    width: size(70),
-    height: size(70),
+    width: 70,
+    height: 70,
     position: 'absolute',
-    right: width(16),
-    top: height(34),
+    right: "16%",
+    top: "34%",
     zIndex: 8
   },
   containerText: {
@@ -66,26 +67,27 @@ const styles = StyleSheet.create({
   },
   conteinerB:{
     backgroundColor: '#EB5A35', 
-    height: height(35),
-    width: width(95),
+    height: "60%",
+    width: "95%",
     borderRadius: 20,
     zIndex: -8,
     position: 'absolute',
     bottom: 0
   },
   nome: {
-    fontSize: fontSize(36),
+    fontSize: 36,
     color: 'black'
   },
   titulo: {
     color: 'black',
-    fontSize: fontSize(14),
+    fontSize: 14,
     textAlign: "center"
   },
   imagem: {
     resizeMode: "cover",
-    height: height(60),
-    width: width(95),
+    height: height * 0.6,
+    width: width * 1.1,
+    zIndex: 9999999999,
     
   }
 });
